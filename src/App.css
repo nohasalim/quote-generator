@@ -48,9 +48,8 @@ h1{
     font-family: "Dancing Script", "Akaya Telivigala", monospace, sans-serif;
 }
 .btns{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: minmax(60px, auto);
+    display:flex;
+    
 }
 .btns button{
     padding: 8px;
